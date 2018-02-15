@@ -18,16 +18,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html" style="padding: 0px 0px 0px"><img src="logo-small.png" style="width: 75px; height: 50px"></a>
+      <a class="navbar-brand" href="index.php" style="padding: 0px 0px 0px"><img src="logo-small.png" style="width: 75px; height: 50px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="about.html">About</a></li>
-        <li><a href="get-started.html">Getting Started</a></li>
-        <li><a href="jargon.html">Jargon</a></li>
-        <li><a href="learn-more.html">Learn More</a></li>
-        <li><a href="participate.html">Participate on Campus</a></li>
+        <li><a href="index.php">Home</a></li>
+        <li class="active"><a href="about.php">About</a></li>
+        <li><a href="get-started.php">Getting Started</a></li>
+        <li><a href="jargon.php">Jargon</a></li>
+        <li><a href="learn-more.php">Learn More</a></li>
+        <li><a href="participate.php">Participate on Campus</a></li>
       </ul>
     </div>
   </div>

@@ -18,16 +18,16 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.html" style="padding: 0px 0px 0px"><img src="logo-small.png" style="width: 75px; height: 50px"></a>
+      <a class="navbar-brand" href="index.php" style="padding: 0px 0px 0px"><img src="logo-small.png" style="width: 75px; height: 50px"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li  class="active"><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="get-started.html">Getting Started</a></li>
-        <li><a href="jargon.html">Jargon</a></li>
-        <li><a href="learn-more.html">Learn More</a></li>
-        <li><a href="participate.html">Participate on Campus</a></li>
+        <li class="active"><a href="index.php">Home</a></li>
+        <li><a href="about.php">About</a></li>
+        <li><a href="get-started.php">Getting Started</a></li>
+        <li><a href="jargon.php">Jargon</a></li>
+        <li><a href="learn-more.php">Learn More</a></li>
+        <li><a href="participate.php">Participate on Campus</a></li>
       </ul>
     </div>
   </div>
@@ -39,7 +39,11 @@
     </div>
     <div class="col-sm-8 text-left"> 
       <h1>Blockchain</h1>
-      <p>I'm a huge Blockchain nerd. If you don't know what a "Blockchain" is, then you're in the right place! Visit the <a href="about.html">About</a> page for some blockchain info, the <a href="get-started.html">Getting Started</a> page on how to buy some cryptocurrency, the <a href="jargon.html">Jargon</a> page for some buzzwords, the <a href="learn-more.html">Learn More</a> page to find some useful resources on furthering your knowledge, and lastly how to get involved <a href="participate.html">right here on campus</a></p>
+      <p>I'm a huge Blockchain nerd. If you don't know what a "Blockchain" is, then you're in the right place! Visit the 
+      <a href="about.php">About</a> page for some blockchain info, the <a href="get-started.php">Getting Started</a> page
+      on how to buy some cryptocurrency, the <a href="jargon.php">Jargon</a> page for some buzzwords, the 
+      <a href="learn-more.php">Learn More</a> page to find some useful resources on furthering your knowledge, and lastly
+       how to get involved <a href="participate.php">right here on campus</a></p>
       <hr>
 
   </div>
