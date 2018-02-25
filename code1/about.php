@@ -1,38 +1,7 @@
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="main.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+<?php include 'header.php'?>
 <body>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid" id="nav_center">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="index.html" style="padding: 0px 0px 0px"><img src="logo-small.png" style="width: 75px; height: 50px"></a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li><a href="index.html">Home</a></li>
-        <li class="active"><a href="about.html">About</a></li>
-        <li><a href="get-started.html">Getting Started</a></li>
-        <li><a href="jargon.html">Jargon</a></li>
-        <li><a href="learn-more.html">Learn More</a></li>
-        <li><a href="participate.html">Participate on Campus</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-  
+<?php include 'navbar.php'?>
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
@@ -54,7 +23,7 @@
       </p>
       <h3>Applications of Blockchain</h3>
       <p>By now you've probably heard of Bitcoin, which is the first application of Blockchain. The creator of Blockchain also created
-        Bitcoin - more about that in the <a href="learn-more.html">Learn More</a> section. Blockchain can be used for more than just
+        Bitcoin - more about that in the <a href="learn-more.php">Learn More</a> section. Blockchain can be used for more than just
         magic internet money. Blockchain is wildly popular within the Research and Development groups at insurance companies and other
         industries because it provides a secure way to provide the same information to multiple parties, and ensure the data's integrity.
       </p>
@@ -64,8 +33,5 @@
 
   </div>
 </div>
-
-
-
 </body>
 </html>
