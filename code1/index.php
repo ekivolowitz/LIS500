@@ -12,7 +12,7 @@
       <a href="about.php">About</a> page for some blockchain info, the <a href="get-started.php">Getting Started</a> page
       on how to buy some cryptocurrency, the <a href="jargon.php">Jargon</a> page for some buzzwords, the 
       <a href="learn-more.php">Learn More</a> page to find some useful resources on furthering your knowledge, and lastly
-       how to get involved <a href="participate.php">right here on campus</a></p>
+       how to get involved <a href="participate.php">right here on campus</a>.</p>
       <hr>
 
   </div>
