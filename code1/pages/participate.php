@@ -1,8 +1,8 @@
 <html lang="en">
 
-<?php include 'header.php'?>
+<?php include '../template/header.php'?>
 <body>
-<?php include 'navbar.php'?>
+<?php include '../template/navbar.php'?>
   
 <div class="container-fluid text-center">    
   <div class="row content">

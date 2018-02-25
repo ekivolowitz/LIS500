@@ -1,7 +1,7 @@
 <html lang="en">
-<?php include 'template/header.php'?>
+<?php include '../template/header.php'?>
 <body>
-<?php include 'template/navbar.php'?>
+<?php include '../template/navbar.php'?>
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
@@ -23,7 +23,7 @@
       </p>
       <h3>Applications of Blockchain</h3>
       <p>By now you've probably heard of Bitcoin, which is the first application of Blockchain. The creator of Blockchain also created
-        Bitcoin - more about that in the <a href="learn-more.php">Learn More</a> section. Blockchain can be used for more than just
+        Bitcoin - more about that in the <a href="../pages/learn-more.php">Learn More</a> section. Blockchain can be used for more than just
         magic internet money. Blockchain is wildly popular within the Research and Development groups at insurance companies and other
         industries because it provides a secure way to provide the same information to multiple parties, and ensure the data's integrity.
       </p>
