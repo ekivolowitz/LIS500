@@ -14,9 +14,9 @@ echo '<nav class="navbar navbar-inverse">
 
       $filename = basename($_SERVER['PHP_SELF']);
       if ($filename == 'index.php') {
-        echo '<li class="active"><a href="index.php">Home</a></li>';
+        echo '<li class="active"><a href="../pages/index.php">Home</a></li>';
       } else {
-        echo '<li><a href="index.php">Home</a></li>';
+        echo '<li><a href="../pages/index.php">Home</a></li>';
       }
       if ($filename == 'about.php') {
         echo '<li class="active"><a href="about.php">About</a></li>';
