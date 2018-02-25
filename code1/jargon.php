@@ -1,9 +1,8 @@
 <html lang="en">
 <?php include 'header.php'?>
 <body>
-
 <?php include 'navbar.php'?>
-
+  
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
@@ -24,10 +23,7 @@
 
   </div>
 </div>
-<?php 
 
-// echo '<p>$now->format("Y-m-d H:i:s");</p>';
-?> 
 
 </body>
 </html>
