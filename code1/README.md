@@ -2,7 +2,7 @@
 ## Live Site
 [Visit the live page!](http://badgerblockchain.club:5000)
 ## Requirements
-* Two dynamic elements
+* Three dynamic elements
     * [Title of every webpage](https://github.com/ekivolowitz/LIS500/blob/master/code1/template/header.php#L2-L6)
     * [Maintaining active page highlighting in navbar](https://github.com/ekivolowitz/LIS500/blob/master/code1/template/navbar.php#L15-L45)
     * [Write and fix in one place,](https://github.com/ekivolowitz/LIS500/tree/master/code1/template)[ use in another](https://github.com/ekivolowitz/LIS500/blob/master/code1/pages/about.php#L2)
