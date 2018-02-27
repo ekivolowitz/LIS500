@@ -14,8 +14,8 @@
       <a href="../pages/learn-more.php">Learn More</a> page to find some useful resources on furthering your knowledge, and lastly
        how to get involved <a href="../pages/participate.php">right here on campus</a>.</p>
       <hr>
-
-  </div>
+      </div>
+  <?php include 'template/table.php'?>
 </div>
 
 

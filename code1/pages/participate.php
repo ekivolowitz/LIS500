@@ -5,7 +5,7 @@
 <?php include '../template/navbar.php'?>
   
 <div class="container-fluid text-center">    
-  <div class="row content">
+  <div class="row content" style="height: 0px">
     <div class="col-sm-2 sidenav">
     </div>
     <div class="col-sm-8 text-left"> 
@@ -16,6 +16,8 @@
     </div>
     
   </div>
+  <div class="col-sm-2 sidenav"></div>
+  <?php include '../template/table.php'?>
 </div>
 
 

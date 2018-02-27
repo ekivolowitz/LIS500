@@ -3,9 +3,8 @@
 <body>
 <?php include '../template/navbar.php'?>
 <div class="container-fluid text-center">    
-  <div class="row content">
-    <div class="col-sm-2 sidenav">
-    </div>
+  <div class="row content" style="height: 0px;">
+    <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8 text-left"> 
       <h1>About</h1>
       <h3>Life before Blockchain</h3>
@@ -28,10 +27,11 @@
         industries because it provides a secure way to provide the same information to multiple parties, and ensure the data's integrity.
       </p>
       <hr>
-
     </div>
-
   </div>
+  <div class="col-sm-2 sidenav"></div>
+  <?php include '../template/table.php'?>
+
 </div>
 </body>
 </html>
