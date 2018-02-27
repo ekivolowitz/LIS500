@@ -7,7 +7,7 @@ echo '<nav class="navbar navbar-inverse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>                        
     </button>
-    <a class="navbar-brand" href="index.php" style="padding: 0px 0px 0px"><img src="../images/logo-small.png" style="width: 75px; height: 50px"></a>
+    <a class="navbar-brand" href="../index.php" style="padding: 0px 0px 0px"><img src="../images/logo-small.png" style="width: 75px; height: 50px"></a>
   </div>
   <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav">';

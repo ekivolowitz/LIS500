@@ -2,6 +2,7 @@
 <div class="col-sm-8">
   <table class="table my-table">
     <thead class="thead-dark">
+      <tr><h3>My Favorite 3 Cryptocurrencies</h3></tr>
       <tr>
         <th scope="col">Name</th>
         <th scope="col">Logo</th>
@@ -18,7 +19,9 @@
           for($x = 0; $x < $numEntries; $x++) {
             for($i = 0; $i < 3; $i++) {
               if($i == 0) {
-                echo "<td scope=\"row\">" . $response[$x]["id"] . "</td>";
+                $val = $response[$x]["id"];
+		$val = ucfirst($val);
+		echo "<td scope=\"row\">" . $val . "</td>";
               } elseif($i == 1) {
                 $img = "../images/" . $response[$x]["id"] . ".png";
                 echo "<td><img src=\"$img\" style=\"width: 100px; height=100px;\"></td>";
