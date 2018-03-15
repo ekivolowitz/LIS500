@@ -1,4 +1,4 @@
-# Code 1 Project
+# [Code 1 Project](https://github.com/ekivolowitz/LIS500/blob/master/code1)
 ## Live Site
 [Visit the live page!](http://badgerblockchain.club:5000)
 ## Requirements
@@ -31,4 +31,8 @@
 * I was looking for something like that in PHP, which lead me to reading some [documentation](http://php.net/manual/en/function.include.php). I decided to repurpose the include function and some clean folder structuring to recreate the flask like templating feature. While not exactly what you think of when you think 'dynamic content', I think that the powerful benefit of writing in one place and using in several places, and reducing the text content of each individual php page by ~50% picks up the slack. To be sure though, I created active page highlighting on the navbar with php using some built in directives. 
 * I used bootstrap to generate dynamic styling so that the page is responsive to mobile users. 
 * API calls for generating the BTC/ETH/XRP tables on the fly
-# Future Project
+# [Code and Power 1](https://github.com/ekivolowitz/LIS500/blob/master/code_and_power_1)
+[Visit the live page! (Not currently hosted)](http://www.badgerblockchain.club:5001)
+## Requirements
+* Will go here soon
+   * Sub requirements and notes will go here
