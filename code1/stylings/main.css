@@ -3,6 +3,17 @@
     margin-bottom: 0;
     border-radius: 0;
 }
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
 .navbar-inverse {
     background-color: #101010;
 }
@@ -52,8 +63,3 @@ footer {
     .row.content {height:auto;} 
 }
 
-@media screen and (min-width: 768px) {
-    .navbar-nav {
-        padding-left: 24%;
-    }
-}
