@@ -2,7 +2,7 @@
 
 * Website's we're discussing
   * [Educational Toys Planet](https://www.educationaltoysplanet.com/)
-  * [Debbie the Librarian](http://www.abbythelibrarian.com/)
+  * [Abby the Librarian](http://www.abbythelibrarian.com/)
   * [Common App](http://www.commonapp.org/faq)
 
 ## Structure of code_and_power_1
