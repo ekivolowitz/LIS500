@@ -4,6 +4,7 @@
   * [Educational Toys Planet](https://www.educationaltoysplanet.com/)
   * [Abby the Librarian](http://www.abbythelibrarian.com/)
   * [Common App](http://www.commonapp.org/faq)
+  * [Weather](http://w2.weather.gov/climate/)
 
 ## Structure of code_and_power_1
 ```
