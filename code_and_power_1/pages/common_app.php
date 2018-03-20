@@ -2,7 +2,6 @@
 <?php include '../template/header.php'?>
 <body>
 <?php include '../template/navbar.php'?>
-
 <div class="container-fluid text-center">    
   <div class="row content" style="height: 0px;">
     <div class="col-sm-2 sidenav"></div>
@@ -22,7 +21,6 @@
       </p>
       <hr>
       <?php include '../template/review_site.php'?>
-
     </div>
   </div>
   <div class="col-sm-2 sidenav"></div>
