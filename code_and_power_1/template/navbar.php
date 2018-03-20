@@ -12,16 +12,41 @@ echo '<nav class="navbar navbar-inverse">
     <ul class="nav navbar-nav">';
 
       $filename = basename($_SERVER['PHP_SELF']);
-      if ($filename == 'index.php') {
-        echo '<li class="active"><a href="index.php">Home</a></li>';
+
+      if($filename === 'index.php') {
+        echo '<li class="active"><a href="/index.php">Home</a></li>';
       } else {
-        echo '<li><a href="../index.php">Home</a></li>';
+        echo '<li><a href="/index.php">Home</a></li>';
       }
-      if ($filename == 'about.php') {
-        echo '<li class="active"><a href="../pages/about.php">About</a></li>';
+
+      if($filename === 'abby_the_librarian.php') {
+        echo '<li class="active"><a href="/pages/abby_the_librarian.php">Abby The Librarian</a></li>';
       } else {
-        echo '<li><a href="../pages/about.php">About</a></li>';
+        echo '<li><a href="/pages/abby_the_librarian.php">Abby The Librarian</a></li>';
       }
+      if ($filename === "common_app.php") {
+        echo '<li class="active"><a href="/pages/common_app.php">Common App</a></li>';
+      } else {
+        echo '<li><a href="/pages/common_app.php">Common App</a></li>';
+      }
+      
+      if ($filename === "educational_toys_planet.php") {
+        echo '<li class="active"><a href="/pages/educational_toys_planet.php">Educational Toys Planet</a></li>';
+      } else {
+        echo '<li><a href="/pages/educational_toys_planet.php">Educational Toys Planet</a></li>';
+      }
+      
+      if ($filename === "weather.php") {
+        echo '<li class="active"><a href="/pages/weather.php">Weather</a></li>';
+      } else {
+        echo '<li><a href="/pages/weather.php">Weather</a></li>';
+      }
+      if($filename === 'ratings.php') {
+        echo '<li class="active"><a href="/pages/ratings.php">Ratings</a></li>';
+      } else {
+        echo '<li><a href="/pages/ratings.php">Ratings</a></li>';
+      }
+
 echo '</ul>
   </div>
 </div>

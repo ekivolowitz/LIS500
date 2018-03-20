@@ -1,9 +1,27 @@
 <?php
     echo '<head>
     <title>';
-    
-    $date = date("m/d/Y"); 
-    echo "$date";
+
+    $filename = basename($_SERVER['PHP_SELF']);
+
+    if($filename === 'abby_the_librarian.php') {
+        echo "Abby the Librarian";
+    } elseif ($filename === 'about.php') {
+        echo 'About';
+    } elseif ($filename === "common_app.php") {
+        echo "Common App";
+    } elseif ($filename === "educational_toys_planet.php") {
+        echo "Educational Toys Planet";
+    } elseif ($filename === "weather.php") {
+        echo "Weather";
+    } elseif ($filename === "ratings.php") {
+        echo "Rating";
+    } elseif ($filename === "index.php") {
+        echo "Home";
+    } else {
+        echo "Error";
+    }
+
     
     echo '</title>
     <meta charset="utf-8">
