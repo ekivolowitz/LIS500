@@ -41,19 +41,18 @@
             $averages = array($avgAbby, $avgCommon, $avgEdu, $avgWeather);
             $names = array("Abby the Librarian", "Common App", "Educational Toys Planet", "Weather");
             $links = array("http://www.abbythelibrarian.com/", "http://www.commonapp.org/faq", "https://www.educationaltoysplanet.com/", "http://w2.weather.gov/climate/");
-
             for($i = 0; $i < 4; $i++) {
               echo '<tr>';
               
               echo "<td>";
-
-              echo "<a href=\"" . $links[i] . "\" target=\"blank\">$names[$i]</a>";
+              echo "<a href=\" $links[$i]\" target=\"_blank\">$names[$i]</a>";
 
               echo "</td>";
               
-    
+              $formattedNumber = number_format($averages[$i], 2);
+
               echo '<td>';
-              echo $averages[$i];
+              echo $formattedNumber;
               echo '</td>';
               
               echo '</tr>'; 
