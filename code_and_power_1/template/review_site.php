@@ -3,12 +3,12 @@
     <?php
         $db = new SQLite3('../code_and_power_1.db');
         $filename = basename($_SERVER['PHP_SELF']);
-        $hidden = True;
+        
         $pageReview = [
             "common_app.php" => 2,
             "abby_the_librarian.php" => 1,
             "educational_toys_planet.php" => 3,
-            "weather.php" => 4
+            "Madison_police_dept.php" => 2
         ];
 
         $pageNames = [
@@ -22,7 +22,7 @@
         $edu = "https://www.educationaltoysplanet.com/";
         $abby = "http://www.abbythelibrarian.com/";
         $common = "http://www.commonapp.org/faq";
-        $weather = "http://w2.weather.gov/climate/";
+        $weather = "https://www.cityofmadison.com/police/";
 
         if(isset($_POST['user_input'])) {
             if($_POST['user_input'] !== "") {
@@ -37,7 +37,7 @@
                     case 'educational_toys_planet.php':
                         $url = $edu;
                         break;
-                    case 'weather.php':
+                    case 'Madison_police_dept.php':
                         $url = $weather;
                         break;
                 }
@@ -48,12 +48,12 @@
                 echo "Must enter values 1 to 5.";
             }
         }
-        $hidden = True;
+        
         echo '
         <div class="col-sm-12 text-center">
             <form action="' . $filename . '" method="post">
                 Rating: <input name="user_input" type="number" min="1" max="5">
-                <input type="submit" onclick="run()">
+                <input type="submit">
             </form>
             <p> Our review of ' . $pageNames[$filename] . ' was: ' . $pageReview[$filename] . ' </p>
         </div>';

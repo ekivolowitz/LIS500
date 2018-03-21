@@ -36,10 +36,10 @@ echo '<nav class="navbar navbar-inverse">
         echo '<li><a href="/pages/educational_toys_planet.php">Educational Toys Planet</a></li>';
       }
       
-      if ($filename === "weather.php") {
-        echo '<li class="active"><a href="/pages/weather.php">Weather</a></li>';
+      if ($filename === "Madison_police_dept.php") {
+        echo '<li class="active"><a href="/pages/Madison_police_dept.php">Madison Police Dept</a></li>';
       } else {
-        echo '<li><a href="/pages/weather.php">Weather</a></li>';
+        echo '<li><a href="/pages/Madison_police_dept.php">Madison Police Dept</a></li>';
       }
       if($filename === 'ratings.php') {
         echo '<li class="active"><a href="/pages/ratings.php">Ratings</a></li>';

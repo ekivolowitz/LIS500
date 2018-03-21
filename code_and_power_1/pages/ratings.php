@@ -22,7 +22,7 @@
             $db = new SQLite3('../code_and_power_1.db');
             
 
-            $query = "SELECT AVG(rating) FROM Review where website=\"weather.php\";";
+            $query = "SELECT AVG(rating) FROM Review where website=\"Madison_police_dept.php\";";
             $query1 = "SELECT AVG(rating) FROM Review where website=\"abby_the_librarian.php\";";
             $query2 = "SELECT AVG(rating) FROM Review where website=\"common_app.php\";";
             $query3 = "SELECT AVG(rating) FROM Review where website=\"educational_toys_planet.php\";";
@@ -39,8 +39,8 @@
             $avgEdu = $queryEdu->fetchArray()[0];
 
             $averages = array($avgAbby, $avgCommon, $avgEdu, $avgWeather);
-            $names = array("Abby the Librarian", "Common App", "Educational Toys Planet", "Weather");
-            $links = array("http://www.abbythelibrarian.com/", "http://www.commonapp.org/faq", "https://www.educationaltoysplanet.com/", "http://w2.weather.gov/climate/");
+            $names = array("Abby the Librarian", "Common App", "Educational Toys Planet", "Madison Police Dept");
+            $links = array("http://www.abbythelibrarian.com/", "http://www.commonapp.org/faq", "https://www.educationaltoysplanet.com/", "https://www.cityofmadison.com/police/");
             for($i = 0; $i < 4; $i++) {
               echo '<tr>';
               

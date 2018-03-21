@@ -23,8 +23,7 @@ table {
 }
 
 
-
-    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
 .row.content {
     height: 450px;
 }
@@ -54,6 +53,6 @@ footer {
 
 @media screen and (min-width: 768px) {
     .navbar-nav {
-        padding-left: 24%;
+        padding-left: 30%;
     }
 }
