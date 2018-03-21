@@ -3,8 +3,8 @@
 <body>
 <?php include '../template/navbar.php'?>
 
-<div class="container-fluid text-center" style="height: 0px;">    
-  <div class="row content" style="height: 0px;">
+<div class="container-fluid text-center" style="height: 0px">    
+  <div class="row content" style="height: 50px;">
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8 text-left"> 
       <h1>The Common Application: Easing the College Application Process</h1>
@@ -30,6 +30,7 @@
       </p>
         <div>
         <img src="../images/mobile_app.png">
+            <img src="../images/systemreqs.png">
         </div>
       <h3>Ease of Access</h3>
       <p>
@@ -40,19 +41,28 @@
           Features like the virtual counselors also add to theme of catering to the student about to embark on the next
           stage of their life. It is free and relatively straight forward to set up an account. The only major access
           issue comes when a student without reliable desktop access tries to apply online. The website does not see
-          typing into the essay box as an activity and will erase any unsaved information when it timesout every hour.
+          typing into the essay box as an activity and will erase any unsaved information when it times out every hour.
 
       </p>
         <div>
             <img src="../images/comapp_qoute.png">
         </div>
-      <h3></h3>
-     <p></p>
+
+      <h3>Demographics</h3>
+     <p>The Common Application is most obviously targeted at college-bound students with internet access. Evidence of
+     this is primarily the content of the website which has everything to do with preparations for applying to college and advice
+     on logistical matters. Also the fact that it is an online application assumes that the users have steady internet
+     access. A less obvious target demographic however are users with desktop computers at home. Features of the Common
+     App website make it difficult to use a</p>
       <hr>
       <?php include '../template/review_site.php'?>
+
     </div>
   </div>
   <div class="col-sm-2 sidenav"></div>
+
+
+
 </div>
 </body>
 </html>
