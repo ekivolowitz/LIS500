@@ -21,18 +21,18 @@
             		accessibility.
         		</p>
 		</td>
-        <td class="col-sm-4"><img src="images/digital_access.png" style="height: 400px; width: 500px; float: left"></td>
+        <td class="col-sm-4"><img src="images/digital_access.png" style="height: 300px; width: 300px; float: left"></td>
 	</table>
 	</div>        
 	<div>
         <h3>What We Looked For</h3>
-        <h4> Platform Compatibility</h4>
         <div>
 		<table style="border: 0">
 			<tr>
 				<td class="col-sm-2">
+					<h5 style="float: left">Platform Compatibility</h5><br><br>
 					<ul style="text-align: left; list-style-type: circle;">
-            					<li>Laptop</li>
+	    					<li>Laptop</li>
             					<li>iOS</li>
             					<li>Android</li>
             					<li>Differences between those devices, how it works</li>
@@ -40,7 +40,7 @@
 				</td>
 				
             			<td class="col-sm-4"> 
-					<img src="images/devices.png" style="height: 300px; width: 400px; align-content: right">
+					<img src="images/devices.png" style="height: 200px; width: 200px; align-content: right">
 				</td>
 			</tr>
 		</table>
@@ -49,33 +49,32 @@
         <div>
 	<table style="border: 0">
 	<tr>
-        <h4>Navigation Skills or Ease of Access</h4>
 	</tr>
 	<tr>
 	<td class="col-sm-2">
+        	<h5 style="float: left;">Navigation Skills or Ease of Access</h5><br><br>
 		<ul style="list-style-type:circle; text-align: left;">
-            		<li>Basic category of blog</li>
-            		<li>How to search</li>
-            		<li>Search differences between devices</li>
+            		<li>How information is laid out</li>
+            		<li>Tabs listed</li>
+            		<li>Search differences in content between devices</li>
         	</ul>
 	</td></tr></table></div>
+	<br>
     	<div>
 		<table style="border: 0">
-        		<tr><h4>Target Demographic</h4></tr>
 			<tr>
 				<td class="col-sm-2">
+					<h5 style="float: left">Target Demographic</h5><br><br>
         				<ul style="list-style-type:circle; text-align: left;">
         			    		<li>Who is the website designed for?</li>
        				    		<li>Does it take technological allowances into consideration?</li>
        					</ul>
 				</td>
-				<td class="col-sm-3"><img src="images/target.jpg" style="height: 300px; width: 400px;"> </td>
+				<td class="col-sm-3"><img src="images/target.jpg" style="height: 200px; width: 200px;"> </td>
 			</tr>
 		</table>
 	</div>
         <hr>
-
-
         <div class="col-sm-2 sidenav"></div>
 
 

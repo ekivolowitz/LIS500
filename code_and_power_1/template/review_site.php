@@ -5,10 +5,10 @@
         $filename = basename($_SERVER['PHP_SELF']);
         
         $pageReview = [
-            "common_app.php" => 2,
-            "abby_the_librarian.php" => 1,
+            "common_app.php" => 5,
+            "abby_the_librarian.php" => 5,
             "educational_toys_planet.php" => 3,
-            "Madison_police_dept.php" => 2
+            "Madison_police_dept.php" =>3 
         ];
 
         $pageNames = [
@@ -52,7 +52,7 @@
         echo '
         <div class="col-sm-12 text-center">
             <form action="' . $filename . '" method="post">
-                Rating: <input name="user_input" type="number" min="1" max="5">
+                Rating: <input name="user_input" type="number" min="1" max="6">
                 <input type="submit">
             </form>
             <p> Our review of ' . $pageNames[$filename] . ' was: ' . $pageReview[$filename] . ' </p>

@@ -11,11 +11,11 @@
       <h3>What is it?</h3>
       <p>
         The Common Application, or Common App, was designed to streamline the process of applying to college. Accepted by
-          over 750 universities in 49 states, it provides a wealth of options for the high-schooler in their senior year
-          looking at the prospects for university. The Common App essentially acts as a middle man by creating a single
+          over 750 universities in the United States and abroad,it provides a wealth of options for the high-schooler in their senior year
+         looking at the prospects for university. The Common App essentially acts as a middle man by creating a single
           undergraduate application that can be submitted to a number of universities of the student's choice.
       </p>
-     <div><img src="../images/mainpage.png"></div>
+     <div><img src="../images/mainpage.png" style="width: 100%;"></div>
       <h3>Multiple Platform Compatibility</h3>
       <p>
           The Common App works across many platforms from android phones to PCs. However, the desktop version is the most
@@ -24,13 +24,13 @@
           smaller devices and information is laid out in a similar fashion as the desktop. In addition to online
           versions of the site, there is an actual app that can be downloaded on one's phone called Common App onTrack.
           It is important to note that the mobile app only acts as a complement to the desktop version. Students cannot
-          complete the application through the phone. Instead they can manage tasks, see reminders and view their
+          complete the application through the mobile app. Instead they can manage tasks, see reminders and view their
           submission status.
 
       </p>
         <div>
-        <img src="../images/mobile_app.png">
-            <img src="../images/systemreqs.png">
+        <img src="../images/mobile_app.png"style="width: 100%;">
+            <img src="../images/systemreqs.png"style="width: 100%;">
         </div>
       <h3>Ease of Access</h3>
       <p>
@@ -45,15 +45,15 @@
 
       </p>
         <div>
-            <img src="../images/comapp_qoute.png">
+            <img src="../images/comapp_qoute.png"style="width: 100%;">
         </div>
 
       <h3>Demographics</h3>
      <p>The Common Application is most obviously targeted at college-bound students with internet access. Evidence of
      this is primarily the content of the website which has everything to do with preparations for applying to college and advice
      on logistical matters. Also the fact that it is an online application assumes that the users have steady internet
-     access. A less obvious target demographic however are users with desktop computers at home. Features of the Common
-     App website make it difficult to use a</p>
+     access. A less obvious target demographic however are users with desktop computers at home. A nice feature of the website is 
+     it has language options for both English and Spanish. Thereby broadening its base.</p>
       <hr>
       <?php include '../template/review_site.php'?>
 

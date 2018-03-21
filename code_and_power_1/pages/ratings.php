@@ -9,11 +9,11 @@
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8 text-left"> 
       <h1>Results</h1>
-      <table class="table">
+      <table class="table" style="border-color: #00;">
         <thead>
           <tr>
-            <th scope="col">Website</th>
-            <th scope="col">Rating</th>
+            <th scope="col" style="color: #FFFF99;">Website</th>
+            <th scope="col"style="color: #FFFF99;">Rating</th>
           </tr>
         </thead>
         <tbody>
@@ -42,16 +42,16 @@
             $names = array("Abby the Librarian", "Common App", "Educational Toys Planet", "Madison Police Dept");
             $links = array("http://www.abbythelibrarian.com/", "http://www.commonapp.org/faq", "https://www.educationaltoysplanet.com/", "https://www.cityofmadison.com/police/");
             for($i = 0; $i < 4; $i++) {
-              echo '<tr>';
+              echo '<tr style="border-color: #00;">';
               
-              echo "<td>";
+              echo "<td style=\"border-color: #00; color: #ffff99;\">";
               echo "<a href=\" $links[$i]\" target=\"_blank\">$names[$i]</a>";
 
               echo "</td>";
               
               $formattedNumber = number_format($averages[$i], 2);
 
-              echo '<td>';
+              echo '<td style="color: #ffff99;">';
               echo $formattedNumber;
               echo '</td>';
               

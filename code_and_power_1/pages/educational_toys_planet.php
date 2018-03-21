@@ -8,9 +8,9 @@
     <div class="col-sm-8 text-left"> 
     <h1>E-commerce Website: Educational Toys Planet</h1>
       <br><br>
-      <img src="../images/EducationalToysHomePagePic.png">
+      <img src="../images/EducationalToysHomePagePic.png"style="width: 100%;">
       <h3>Platform Compatibility</h3>
-      <p>The website is well-dexigned and is usable accross all the 
+      <p>The website is well-designed and is usable accross all the 
         platforms we tested including Apple and Android phones,
         Macs and PC's. The biggest concern with user access to this website 
         could be the amount of bandwidth required to load the page. There are 
@@ -27,7 +27,7 @@
         what this company is doing with user's personal identifiers. 
         
       </p>
-      <img src="../images/diversekidspic.png">
+      <img src="../images/diversekidspic.png"style="width: 100%;">
       <h3>Target Audience</h3>
       <p>The site is not overtly exclusionary. The photos of children chosen as models 
         are a racially and ethnically diverse set. However, the business model is clearly 

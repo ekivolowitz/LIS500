@@ -8,10 +8,10 @@
     <div class="col-sm-8 text-left"> 
     <h1>Government Website: Madison Police Department (MPD)</h1>
       <br><br>
-      <img src= "../images/Madisonpolicehomepage.png">
+      <img src= "../images/Madisonpolicehomepage.png"style="width: 100%;">
 
       <h3>Platform Compatibility</h3>
-      <p>This website is well designed to be accessable from all devices: Mac/PC and IOS/Adroid.
+      <p>This website is designed to be accessable from all devices: Mac/PC and IOS/Adroid.
         There is, however a huge problem with the site. On multiple attempts to visit the website
         the page was either incredibly slow to load, or not able to load at all. This was not consistantly
         the case, but happened often enough to be really frustrating. This would be an enormous problem for people 
@@ -20,7 +20,7 @@
         The MPD should immediately address this issue.
       </p>
 
-      <img src= "../images/ContactPolice.png">
+      <img src= "../images/ContactPolice.png"style="width: 100%;">
       
       <h3>Navigation and Usability</h3>
       <p>There are links to a lot of resources on this site. Much thought went into catagorizing 
@@ -32,11 +32,11 @@
         oversite for most of the website is the lack of accessability for non-English speakers. In a city like Madison with prominant
         Hispanic and Hmong populations, it seems almost overtly discriminatory to not provide important, basic civic 
         information in the languages pertinent to the population. The Safe Communities of Dane County website, which is linked prominantly 
-        with the MPD website, has a Spanish language translation option overlaying the site. MPD should immediately impliment a translation 
+        with the MPD website, has a Spanish-language translation option overlaying the site. MPD should immediately implement a translation 
         option for their site.
       </p>
-      <img src= "../images/Safecommunitiesenglish.png"><br>
-      <img src= "../images/Safecommunitiesspanish.png"><br>
+      <img src= "../images/Safecommunitiesenglish.png"style="width: 80%; padding-left: 10%;"><br>
+      <img src= "../images/Safecommunitiesspanish.png"style="width: 80%; padding-left: 10%;"><br>
      
       <h3>Target Audience</h3>
       <p>The MPD website is designed to be a civic resource for the general public in the city of Madison, and the site, except for the 
@@ -45,7 +45,7 @@
         about police interaction with the public. This trasnparency is refreshing, and invites public to engage in public, proactive
         discussion about the racial and cultural implications of policing in the communtity. 
       </p>
-      <img src= "../images/Datareport.png"><br>
+      <img src= "../images/Datareport.png"style="width: 80%; padding-left: 20%;"><br>
       <hr>
       <?php include '../template/review_site.php'?>
 

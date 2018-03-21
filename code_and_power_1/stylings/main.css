@@ -7,10 +7,23 @@
     background-color: #101010;
 }
 
+body {
+	background-color: #6CA6CD;
+}
+
+a {
+	color: #ffff99;
+}
+
 thead {
     border: 1px solid #101010;
     background-color: #101010;
     color: white;
+}
+hr {
+	background-color: #00;
+	border: 0px;
+	height: 1px;
 }
 
 thead > tr > th {
@@ -31,7 +44,7 @@ table {
     /* Set gray background color and 100% height */
 .sidenav {
     padding-top: 20px;
-    background-color: #FFF;
+    background-color: #6ca6cd;
     height: 100%;
 }
     

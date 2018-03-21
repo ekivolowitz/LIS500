@@ -3,12 +3,12 @@
 <body>
 <?php include '../template/navbar.php'?>
 
-<div class="container-fluid text-center" style="height: 0px;">    
+<div class="container-fluid text-center" style="height: 0px; border-color: #6ca6cd">    
   <div class="row content" style="height: 0px;">
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8 text-left"> 
-    <div style="border:2px white solid;padding:30px;">  
-	  <div style="background-color:white;"><h1 align="center">Abby the Librarian</h1></div>
+    <div style="border:2px #6ca6cd;padding:30px;">  
+	  <h1 align="center">Abby the Librarian</h1>
 	  
     <h2>Platform Compatibility</h2>
 　    <h3>Laptop</h3>
