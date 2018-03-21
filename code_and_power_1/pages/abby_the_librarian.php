@@ -10,108 +10,75 @@
     <div style="border:2px white solid;padding:30px;">  
 	  <div style="background-color:white;"><h1 align="center">Abby the Librarian</h1></div>
 	  
-    <h3>Platform Compatibility</h3>
-     <p>
-      <table border="0">
-　    <tr>
-　    <td rowspan="2"><img src="../images/laptop.png" width="60%" height="40%" style="border:2px #ccc solid;padding:5px;"></td>
-　    <td><b>Laptop</b></td>
-　    </tr>
-　    <tr>
-　    <td><br>When users use computer or laptop to browse this blog, the screen they could see would be like the picture.</br>
-          <br></br>   
-	   </td>
-　    </tr>
-      </table>
-	  
-	  <table border="0">
-　    <tr>
-　    <td rowspan="2"><img src="../images/ios3.jpg" width="60%" height="40%" style="border:2px #ccc solid;padding:5px;"></td>
-　    <td><b>iOS</b></td>
-　    </tr>
-　    <tr>
-　     <td><br>The screen looks pretty different when viewers use ios mobile phone to enter the blog.</br>
-		    <br>In the ios mobile viewers could decide which version they want and change by themselves.</br>
-			<br>Viewers could choose Web version or Mobile version.</br>
-			<br>In the Mobile version, the blog looks different from laptop, and when they want to see other pages of the blog.</br>
-			<br>They have to roll to choose which pages they want to see.</br>
-			<br>However, if viewers didn't like the style of mobile, they could change to web version.</br>
-			<br>So that it would be the same as laptop version.</br>
-	  </td>
-　    </tr>
-      </table>
-	  <table border="0">
-　    <tr>
-　    <td rowspan="2"><img src="../images/android.png" width="70%" height="40%" style="border:2px #ccc solid;padding:5px"></td>
-　    <td><b>Android</b></td>
-　    </tr>
-　    <tr>
-　    <td><br>In the Android system, the screen looks no different from what it looks in the iOS system.</br>
-          <br>The way how it uses also same as iOS system, viewers need to roll the selection to choose what they want.</br>
-          <br>Android system also have both web versiom and mobile version for viewers to exchange between two of them,</br>
-          <br>and if viewers want to use search box and ohter catgories to search, they would have to change to web version so that they could use those function.</br>		  
-	   </td>
-　    </tr>
-      <tr>
-　    <td><b>Differences</b> Between devices: Through the screen mobile and laptop looks similar, but there are still some differences
-          <br>In the laptop or computer, the screen looks bigger and more clearer, tags and clicks are easier for viewers to see.</br>
-		  <br>In the mobile device, the screen is smaller, since the looking of the blog is different, it might hard for some viewers who are not familiar to mobile to use.</br>
-		  <br>However, the advantage of this blog is that viewers who knows the blog could use both mobile or laptop to enter and browse the blog.</br>
-		  <br>The blog is working well at different devices or platform.</br>
-	  </td>
-　    </tr>
-      </table>
+    <h2>Platform Compatibility</h2>
+　    <h3>Laptop</h3>
+　    <img src="../images/laptop.png" style="height: 500px; width: 100%">
+　    <p>When users use computer or laptop to browse this blog, the screen they could see would be like the picture.</p>
+
+　    <h3>iOS</h3>
+　    <img src="../images/ios3.jpg" style="height: 500px; padding-left: 30%;">
+	<br>
+	<br>
+	<p>
+　     	The screen looks pretty different when viewers use ios mobile phone to enter the blog.
+       	In the ios mobile viewers could decide which version they want and change by themselves.
+       	Viewers could choose Web version or Mobile version.
+       	In the Mobile version, the blog looks different from laptop, and when they want to see other pages of the blog.
+       	They have to roll to choose which pages they want to see.
+       	However, if viewers didn't like the style of mobile, they could change to web version.
+	So that it would be the same as laptop version. </p>
+　    <h3>Android</h3>
+	<br>
+　    <img src="../images/android.png" style="height: 500px; padding-left: 30%;">
+	<br>
+	<br>
+　    <p>In the Android system, the screen looks no different from what it looks in the iOS system.
+          The way how it uses also same as iOS system, viewers need to roll the selection to choose what they want.
+          Android system also have both web versiom and mobile version for viewers to exchange between two of them,
+          and if viewers want to use search box and ohter catgories to search, they would have to change to web version so that they could use those function. </p>
+	<br>
+　    <h3>Differences</h3>
+	<p> Between devices: Through the screen mobile and laptop looks similar, but there are still some differences
+          In the laptop or computer, the screen looks bigger and more clearer, tags and clicks are easier for viewers to see.
+		  In the mobile device, the screen is smaller, since the looking of the blog is different, it might hard for some viewers who are not familiar to mobile to use.
+		  However, the advantage of this blog is that viewers who knows the blog could use both mobile or laptop to enter and browse the blog.
+		  The blog is working well at different devices or platform.
 	  
 	  </p>
 	  
 	  
 	  
       <h3>Navigation Skills</h3>
-      <p>
-        <table border="0">
-　    <tr>
-　    <td><br><b>(1) Basic category of blog:<b/> When viewers first come to this blog, there would be some tags in the home page of the blog.</br>
-          <br>The basic categories of the blog are Home/About Me/Review Policy/Reading Wildly/Storytime/So You Want to Be a Librarian?</br>
-		  <br>Those are for first come users to get some basic ideas to know what is the topic of this blog.</br>
-		  <br>Also on the side of the blog, viewers could look for information by month and year, and click on labels.</br>
-      </td>
-　    </tr>
-      <tr>
-　    <td><img src="../images/date.jpg" width="40%" height="30%" style="border:2px #ccc solid;padding:5px;">
-          <img src="../images/label.jpg" width="40%" height="30%" style="border:2px #ccc solid;padding:5px;"></td>
-　    </tr>
-　    <tr>
-　    <td><br><b>(2) How to search:</b> Beside the way mentioned above, viewers could use search box to type the key word they want.</br>  
-	  </td>
-　    </tr>
-      <tr>
-　    <td><img src="../images/searchbox.jpg" width="40%" height="30%" style="border:2px #ccc solid;padding:5px;">
-      </td>
-　    </tr>
-      <td><br><b>(3) Search differences between devices:</b> The categories of month and year, and label are not able to direct see if viewers use mobile device's mobile version to browse.</br>
-	      <br>Viewers could only use same screen when they choose web version. It means if viewers are not good at mobile devices would be difficult to find search box or categories of month and year.</br>
-	  </td>
-　    </tr>
-      </table>
-      </p>
+　    <h4>Basic category of blog:</h4>
+　    	<img src="../images/date.jpg" style="width: 100%; height: 500px;">
+	<br>
+	<br>
+      	<img src="../images/label.jpg" style="width: 100%; height: 500px;">
+	<p> When viewers first come to this blog, there would be some tags in the home page of the blog.
+          The basic categories of the blog are Home/About Me/Review Policy/Reading Wildly/Storytime/So You Want to Be a Librarian?
+		  Those are for first come users to get some basic ideas to know what is the topic of this blog.
+		  Also on the side of the blog, viewers could look for information by month and year, and click on labels. </p>
+      <h4>How to search:</h4>
+	<img src="../images/searchbox.jpg" style="width: 100%; height: 500px;">
+	<br>
+	<br>
+	<p> Beside the way mentioned above, viewers could use search box to type the key word they want.</p>  
+      <h4>Search differences between devices:</h4>
+	<p> The categories of month and year, and label are not able to direct see if viewers use mobile device's mobile version to browse.
+	      Viewers could only use same screen when they choose web version. It means if viewers are not good at mobile devices would be difficult to find search box or categories of month and year.</p>
 	  
 	  
       <h3>Target Users</h3>
-      <p>
-       <table border="0"> 
-	   <tr>
-	   <td>
-		<b>(1)Librarian:</b> Blog is a good source for librarians to learn and exchange experience from each other.
-		<br>To this blog, it is especially useful for youth and children librarian, since the author of the blog is a children librarian.</br>
-		<br>Differnet regions of librarians would run into different problems and some different situation.</br>
-		<br>But they might not meet with each others face to face to discuss, blog would be a good platform for them to interact, gain experience, and even inspire by it.</br>
-		<b>(2)Parents:</b><br>Besides librarians, parents are other main viewers of the blog, the topic of the blog is relate to children and youth, it includes many books introduction.</br>
-		                  <br>It also teach parents how to do handmade toy, post many story time informations, her career life, and other relevant experience.</br>
-		                  <br>It is not sure which level of income family would become viewers of this blog, since the blog is public not private; however, it could guess that it is a blog suit for every level of income family.</br>
-      </td>
-      </tr>	  
-	</table>			 
-      </p>
+		<h4>Librarians:</h4> 
+		<p>Blog is a good source for librarians to learn and exchange experience from each other.
+		To this blog, it is especially useful for youth and children librarian, since the author of the blog is a children librarian.
+		Differnet regions of librarians would run into different problems and some different situation.
+		But they might not meet with each others face to face to discuss, blog would be a good platform for them to interact, gain experience, and even inspire by it.</p>
+		<h4>Parents:</h4>
+<p>		
+Besides librarians, parents are other main viewers of the blog, the topic of the blog is relate to children and youth, it includes many books introduction.
+		                  It also teach parents how to do handmade toy, post many story time informations, her career life, and other relevant experience.
+		                  It is not sure which level of income family would become viewers of this blog, since the blog is public not private; however, it could guess that it is a blog suit for every level of income family.</p>
       <hr>  
 
 </div>
