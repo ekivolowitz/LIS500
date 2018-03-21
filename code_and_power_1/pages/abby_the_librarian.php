@@ -34,20 +34,22 @@
 		    <br>In the ios mobile viewers could decide which version they want and change by themselves.</br>
 			<br>Viewers could choose Web version or Mobile version.</br>
 			<br>In the Mobile version, the blog looks different from laptop, and when they want to see other pages of the blog.</br>
-			<br>They have to scroll to choose which pages they want to see.</br>
+			<br>They have to roll to choose which pages they want to see.</br>
 			<br>However, if viewers didn't like the style of mobile, they could change to web version.</br>
 			<br>So that it would be the same as laptop version.</br>
 	  </td>
 　    </tr>
       </table>
-	  <table border="1">
+	  <table border="0">
 　    <tr>
-　    <td rowspan="2"></td>
+　    <td rowspan="2"><img src="../images/android.png" width="70%" height="40%" style="border:2px #ccc solid;padding:5px"></td>
 　    <td><b>Android</b></td>
 　    </tr>
 　    <tr>
-　    <td><br></br>
-          <br></br>   
+　    <td><br>In the Android system, the screen looks no different from what it looks in the iOS system.</br>
+          <br>The way how it uses also same as iOS system, viewers need to roll the selection to choose what they want.</br>
+          <br>Android system also have both web versiom and mobile version for viewers to exchange between two of them,</br>
+          <br>and if viewers want to use search box and ohter catgories to search, they would have to change to web version so that they could use those function.</br>		  
 	   </td>
 　    </tr>
       <tr>
@@ -90,20 +92,25 @@
 	      <br>Viewers could only use same screen when they choose web version. It means if viewers are not good at mobile devices would be difficult to find search box or categories of month and year.</br>
 	  </td>
 　    </tr>
-      </table
+      </table>
       </p>
 	  
 	  
       <h3>Target Users</h3>
       <p>
-        <b>(1)Librarian:</b> Blog is a good source for librarians to learn and exchange experience from each other.
+       <table border="0"> 
+	   <tr>
+	   <td>
+		<b>(1)Librarian:</b> Blog is a good source for librarians to learn and exchange experience from each other.
 		<br>To this blog, it is especially useful for youth and children librarian, since the author of the blog is a children librarian.</br>
 		<br>Differnet regions of librarians would run into different problems and some different situation.</br>
 		<br>But they might not meet with each others face to face to discuss, blog would be a good platform for them to interact, gain experience, and even inspire by it.</br>
-		<b>Parents:</b><br>Besides librarians, parents probably the main viewers of the blog, the topic of the blog is relate to children, it includes many book introduce, handmade toy, and story time and son on. </br>
-		               <br>It is not sure which of income level family would view this blog, since the blog is public; however, it could guess that it is a blog suit for every level income family.</br>
-                       					   
-				 
+		<b>(2)Parents:</b><br>Besides librarians, parents are other main viewers of the blog, the topic of the blog is relate to children and youth, it includes many books introduction.</br>
+		                  <br>It also teach parents how to do handmade toy, post many story time informations, her career life, and other relevant experience.</br>
+		                  <br>It is not sure which level of income family would become viewers of this blog, since the blog is public not private; however, it could guess that it is a blog suit for every level of income family.</br>
+      </td>
+      </tr>	  
+	</table>			 
       </p>
       <hr>  
 
