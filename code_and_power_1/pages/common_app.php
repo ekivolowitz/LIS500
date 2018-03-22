@@ -4,7 +4,7 @@
 <?php include '../template/navbar.php'?>
 
 <div class="container-fluid text-center" style="height: 0px">    
-  <div class="row content" style="height: 50px;">
+  <div class="row content" style="height: 0px;">
     <div class="col-sm-2 sidenav"></div>
     <div class="col-sm-8 text-left"> 
       <h1>The Common Application: Easing the College Application Process</h1>
