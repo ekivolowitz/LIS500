@@ -34,16 +34,16 @@
 	<br>
 　    <p>In the Android system, the screen looks no different from what it looks in the iOS system.
           The way how it uses also same as iOS system, viewers need to roll the selection to choose what they want.
-          Android system also have both web versiom and mobile version for viewers to exchange between two of them,
-          and if viewers want to use search box and ohter catgories to search, they would have to change to web version so that they could use those function. </p>
+          Android system also have both web version and mobile version for viewers to exchange between two of them,
+          and if viewers want to use search box and other categories to search, they would have to change to web version so that they could use those function. </p>
 	<br>
 　    <h3>Differences</h3>
-	<p> Between devices: Through the screen mobile and laptop looks similar, but there are still some differences
+	  <p> Between devices: Through the screen mobile and laptop looks similar, but there are still some differences
           In the laptop or computer, the screen looks bigger and more clearer, tags and clicks are easier for viewers to see.
 		  In the mobile device, the screen is smaller, since the looking of the blog is different, it might hard for some viewers who are not familiar to mobile to use.
 		  However, the advantage of this blog is that viewers who knows the blog could use both mobile or laptop to enter and browse the blog.
-		  The blog is working well at different devices or platform.
-	  
+		  Although the blog is working well in different kind of device, laptop is the best device for viewers to use, browse, and search. 
+		  The screen and looking style on the laptop is way better than mobile device. To sum up, laptop is the most ideal platform for viewers to enter.
 	  </p>
 	  
 	  

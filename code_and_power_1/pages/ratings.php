@@ -62,6 +62,13 @@
           ?>
         </tbody>
       </table>
+	  <h2>Rating Methodology</h2>
+      <p>We rated our websites on an incremental sliding scale of a 1 point minimum to a 6 point maximum. Each sub-topic was awarded either 0, 1, or 2, 
+	  points depending on how problematic the site became when evaluated by our 3 access-related criteria: Platform Compatibility, 
+	  Navigation and Usability, and Target Audience.</p>
+	  
+      
+
       <hr>
     </div>
   </div>

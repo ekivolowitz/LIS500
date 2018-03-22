@@ -15,7 +15,7 @@
             "common_app.php" => "Common App",
             "abby_the_librarian.php" => "Abby the Librarian",
             "educational_toys_planet.php" => "Educational Toys Planet",
-            "weather.php" => "Weather"
+            "Madison_police_dept.php" => "Madison Police Dept"
         ];
 
 
@@ -45,7 +45,7 @@
                 $s = "INSERT INTO Review VALUES (" . "\"" . $filename . "\"" . ',' . $_POST['user_input'] . ", " . "\"" . $url . "\"" . ")";
                 $db->exec($s);
             } else {
-                echo "Must enter values 1 to 5.";
+                echo "Must enter values 1 to 6.";
             }
         }
         
@@ -57,9 +57,6 @@
             </form>
             <p> Our review of ' . $pageNames[$filename] . ' was: ' . $pageReview[$filename] . ' </p>
         </div>';
-       
-
-
     ?>
     
 </HTML>
