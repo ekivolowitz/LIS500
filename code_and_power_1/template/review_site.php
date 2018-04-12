@@ -1,7 +1,11 @@
 <HTML>
     <?php
         $db = new SQLite3('../code_and_power_1.db');
-        $filename = basename($_SERVER['PHP_SELF']);
+        
+	// This gets the filename of the page we're on. So if we were on 
+	// localhost:5000/pages/abby_the_librarian.php, 
+	// $filename would be abby_the_librarian.php
+	$filename = basename($_SERVER['PHP_SELF']);
         
         $pageReview = [
             "common_app.php" => 5,
@@ -22,7 +26,7 @@
         $abby = "http://www.abbythelibrarian.com/";
         $common = "http://www.commonapp.org/faq";
         $weather = "https://www.cityofmadison.com/police/";
-
+	// This is code for handling the 1 -> 6 input
         if(isset($_POST['user_input'])) {
             if($_POST['user_input'] !== "") {
                 $url = "";
@@ -47,25 +51,11 @@
                 echo "Must enter values 1 to 6.";
             }
         }
-        
+       	// This is code for handling the text review of the website.  
         if(isset($_POST['review'])) {
             if($_POST['review'] !== "") {
-                $url = "";
-                switch ($filename) {
-                    case 'abby_the_librarian.php':
-                        $url = $abby;
-                        break;
-                    case 'common_app.php':
-                        $url = $common;
-                        break;
-                    case 'educational_toys_planet.php':
-                        $url = $edu;
-                        break;
-                    case 'Madison_police_dept.php':
-                        $url = $weather;
-                        break;
-                }
-
+		// This formulates the query for the server to run in the database. 
+		// You need to use \" for this to work properly because sqlite3 is expecting the quotes to denote text. 	
                 $s = "INSERT INTO text_review VALUES (\"" . $filename . "\",\"" . $_POST['review'] . "\")";
                 $db->exec($s);
             } 
