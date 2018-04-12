@@ -1,5 +1,4 @@
 <HTML>
-
     <?php
         $db = new SQLite3('../code_and_power_1.db');
         $filename = basename($_SERVER['PHP_SELF']);
@@ -49,6 +48,28 @@
             }
         }
         
+        if(isset($_POST['review'])) {
+            if($_POST['review'] !== "") {
+                $url = "";
+                switch ($filename) {
+                    case 'abby_the_librarian.php':
+                        $url = $abby;
+                        break;
+                    case 'common_app.php':
+                        $url = $common;
+                        break;
+                    case 'educational_toys_planet.php':
+                        $url = $edu;
+                        break;
+                    case 'Madison_police_dept.php':
+                        $url = $weather;
+                        break;
+                }
+
+                $s = "INSERT INTO text_review VALUES (\"" . $filename . "\",\"" . $_POST['review'] . "\")";
+                $db->exec($s);
+            } 
+        }
         echo '
         <div class="col-sm-12 text-center">
             <form action="' . $filename . '" method="post">
@@ -57,6 +78,15 @@
             </form>
             <p> Our review of ' . $pageNames[$filename] . ' was: ' . $pageReview[$filename] . ' </p>
         </div>';
+
+        echo '
+        <div class="col-sm-12 text-center">
+            <form action="' . $filename . '" method="post">
+                <p>What\'re your thoughts?</p>
+                <textarea rows="4" cols="50" name="review"></textarea>
+                <br>
+                <input type="submit">
+            </form>
+        </div>';
     ?>
-    
 </HTML>
