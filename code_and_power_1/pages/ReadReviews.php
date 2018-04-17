@@ -14,6 +14,9 @@
           <tr>
             <th scope="col" style="color: #FFFF99;">Website</th>
             <th scope="col"style="color: #FFFF99;">Rating</th>
+            <th scope="col" style="color: #FFFF99;">Effective for Mobile viewers</th>
+            <th scope="col" style="color: #FFFF99;">Effective for Desktop viewers</th>
+            
           </tr>
         </thead>
         <tbody>
@@ -45,19 +48,25 @@
 
 	    while($x = $results->fetchArray()) {
 			  echo '<tr style="border-color: #00;">';
-              
-              echo "<td style=\"border-color: #00; color: #ffff99;\">";
-              echo "<p><a href=\"" . $links[$x[0]] . "\" _target=\"blank\">" . $cleanNames[$x[0]] . " </a></p>";
-			  echo "</td>";
-              
-
-              echo '<td style="color: #ffff99;">';
-			  echo $x[1];
-			  echo '</td>';
-              
-              echo '</tr>'; 
+          echo "<td style=\"border-color: #00; color: #ffff99;\">";
+            echo "<p><a href=\"" . $links[$x[0]] . "\" _target=\"blank\">" . $cleanNames[$x[0]] . " </a></p>";
+			    echo "</td>";
+          echo '<td style="color: #ffff99;">';
+			      echo $x[1];
+          echo '</td>';
+          $mobile = "";
+          $desktop = "";
+          $x[2] == 0 ? $mobile = "No" : $mobile = "Yes";
+          $x[3] == 0 ? $desktop = "No" : $desktop = "Yes";
+          echo '<td style="color: #ffff99;">';
+			      echo $mobile;
+          echo '</td>';
+          echo '<td style="color: #ffff99;">';
+			      echo $desktop;
+          echo '</td>';
+        echo '</tr>'; 
             
-            }
+      }
 
           ?>
         </tbody>

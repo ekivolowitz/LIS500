@@ -51,6 +51,11 @@ echo '<nav class="navbar navbar-inverse">
       } else {
         echo '<li><a href="/pages/summary.php">How to Improve</a></li>';
       }
+      if($filename === 'ReadReviews.php') {
+        echo '<li class="active"><a href="/pages/ReadReviews.php">Reviews</a></li>';
+      } else {
+        echo '<li><a href="/pages/ReadReviews.php">Reviews</a></li>';
+      }
 echo '</ul>
   </div>
 </div>

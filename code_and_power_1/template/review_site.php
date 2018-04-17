@@ -6,7 +6,6 @@
 	// localhost:5000/pages/abby_the_librarian.php, 
 	// $filename would be abby_the_librarian.php
 	$filename = basename($_SERVER['PHP_SELF']);
-        
         $pageReview = [
             "common_app.php" => 5,
             "abby_the_librarian.php" => 5,
@@ -55,11 +54,20 @@
         if(isset($_POST['review'])) {
             if($_POST['review'] !== "") {
 		// This formulates the query for the server to run in the database. 
-		// You need to use \" for this to work properly because sqlite3 is expecting the quotes to denote text. 	
-                $s = "INSERT INTO text_review VALUES (\"" . $filename . "\",\"" . $_POST['review'] . "\")";
+        // You need to use \" for this to work properly because sqlite3 is expecting the quotes to denote text. 
+                $isGoodMobile = 0;
+                $isGoodDesktop = 0;
+                if($_POST['isGoodMobile'] == "on")
+                    $isGoodMobile = 1;
+                if($_POST['isGoodDesktop'] == "on")
+                    $isGoodDesktop = 1;
+                $s = "INSERT INTO text_review VALUES (\"" . $filename . "\",\"" . $_POST['review'] . "\", " . $isGoodMobile . ", " . $isGoodDesktop . ")";
+                echo $s;
                 $db->exec($s);
             } 
+
         }
+
         echo '
         <div class="col-sm-12 text-center">
             <form action="' . $filename . '" method="post">
@@ -68,15 +76,26 @@
             </form>
             <p> Our review of ' . $pageNames[$filename] . ' was: ' . $pageReview[$filename] . ' </p>
         </div>';
-
         echo '
-        <div class="col-sm-12 text-center">
-            <form action="' . $filename . '" method="post">
-                <p>What\'re your thoughts?</p>
-                <textarea rows="4" cols="50" name="review"></textarea>
-                <br>
-                <input type="submit">
-            </form>
-        </div>';
+            <div class="col-sm-12 text-center">
+                <form action="' . $filename . '" method="post">
+                    <p>
+                        We are considering a population that doesn\'t have consistent
+                        internet access, and are hoping to design a site to allow offline form access. Which device
+                        seems most useful for the population?
+                        <br><br>
+                        Please select one, or both mediums. 
+                    </p>
+                    <p>
+                    <input type="checkbox" name="isGoodMobile"> Mobile</input>
+                    <br>
+                    <input type="checkbox" name="isGoodDesktop">Desktop
+                    </p>
+                    <p>Other thoughts?</p>
+                    <textarea rows="4" cols="50" name="review"></textarea>
+                    <br>
+                    <input type="submit">
+                </form>
+            </div>';
     ?>
 </HTML>

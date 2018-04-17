@@ -18,6 +18,10 @@
         echo "Rating";
     } elseif ($filename === "index.php") {
         echo "Home";
+    } elseif ($filename === "ReadReviews.php") {
+        echo "Reviews";
+    } elseif ($filename === "summary.php") {
+        echo "Summary";
     } else {
         echo "Error";
     }
